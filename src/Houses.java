@@ -11,6 +11,9 @@ public class Houses {
 	final Color blue      = new Color(0, 0, 199);
 	final Color brown      = new Color(153, 77, 0);
 	final Color magenta      = new Color(204, 0, 204);
+	final Color orange        = new Color(244,170,66);
+	final Color black          = new Color(0,0,0);
+	final Color grey            = new Color(121,121,121);
 	Tortoise.setPenWidth(5);
 	System.out.println(y);
 	Tortoise.setPenColor(red);
@@ -36,7 +39,31 @@ public class Houses {
 	drawFlatRoof();
 	Tortoise.move(80);
 	drawGrass();
-}
+	Tortoise.setPenColor(orange);
+	Tortoise.move(20);
+	drawPointyRoof();
+	Tortoise.move(20);
+	drawGrass();
+	Tortoise.setPenColor(grey);
+	Tortoise.move(120);
+	drawFlatRoof();
+	Tortoise.move(120);
+	drawGrass();
+	Tortoise.setPenColor(black);
+	Tortoise.move(400);
+	drawPointyRoof();
+	Tortoise.move(400);
+	drawGrass();
+	Tortoise.setPenColor(orange);
+	Tortoise.move(350);
+	drawFlatRoof();
+	Tortoise.move(350);
+	drawGrass();
+	Tortoise.setPenColor(red);
+	Tortoise.move(30);
+	drawPointyRoof();
+	Tortoise.move(30);
+	}
 static void drawPointyRoof(){
 	Tortoise.setPenWidth(5);
 	Tortoise.turn(45);
