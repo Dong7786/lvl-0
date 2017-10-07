@@ -23,8 +23,9 @@ void Stuff() {
 	type.setSize(500, 200);
 	type.setVisible(true);
 	type.add(screen);
+	letter.setVisible(true);
 	letter.setText(Character.toString(currentLetter));
 	screen.add(letter);
-	letter.setVisible(true);
+	
 }
 }
